@@ -1,19 +1,14 @@
-
-for(let i = 1; i < 2 ; i++){
-    let shape = '';
-    for( let j = 1 ; j < 6 ; j++ ){ 
-        console.log( shape += '*');
-    }
+let shape = "";
+for (let i = 1; i < 6; i++) {
+  console.log((shape += "*"));
 }
 
 for ( let j = 1 ; j < 6 ; j++){
     console.log("*****");
 }
 
-for(let i = 1; i < 2 ; i++){
-    let star = '*****';
-    for( let j = 1 ; j < 6 ; j++ ){ 
-        star = star.slice(0, -1);
-        console.log( star);
-    }
+let star = "*****";
+for (let k = 1; k < 6; k++) {
+  star = star.slice(0, -1);
+  console.log(star);
 }
