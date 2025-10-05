@@ -1,5 +1,3 @@
-
-
 for (let i = 5 ; i > 0 ; i--){
   let satr = '';
   for (let j = 6 - i ; j < 6 ; j++){
